@@ -17,6 +17,6 @@ public class Floor : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        GameManage.GM.resetBall();
+        GameManage.GM.GameOver();
     }
 }
